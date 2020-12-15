@@ -41,13 +41,11 @@ html(lang="es")
                                     +navTemaItem('2', 'Fundamentación de los acuerdos de paz', '#tema-2')
                                     +navTemaItem('3', 'La importancia de la cultura de Paz', '#tema-3')  
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
-                                    +navTemaItem('material', 'Material complementario', '#material')
+                                    +navTemaItem('folder', 'Material complementario', '#material')
                                     +navTemaItem('references', 'Referencias bibliográficas', '#referencias')
 
 
         section#mainContent         
-            #introduccion
-                include pages/introduccion.pug
             #tema-1
                 include pages/1-tema.pug
             #tema-2
@@ -57,7 +55,7 @@ html(lang="es")
             #glosario
                 include pages/glosario.pug
             #material
-                include pages/material.pug                
+                include pages/material-complementario.pug                
             #referencias
                 include pages/referencias.pug
 
